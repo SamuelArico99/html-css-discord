@@ -12,6 +12,9 @@
     font-family: 'Whitney Light', sans-serif;
 
 }
+a{
+    text-decoration: none;
+}
 header{
     display: flex;
     width: 100%;
@@ -51,6 +54,7 @@ h1, h2, h3{
 }
 h1{
     font-size: 40px;
+    
 }
 h2{
     font-size: 35px;
@@ -63,7 +67,7 @@ p{
 }
 
 footer{
-    background-color: darkslategray;
+    background-color:rgba(35,39,42,255);
     min-height: 800px;
     display: flex;
     flex-direction: column;
@@ -104,9 +108,10 @@ header .container{
     align-items: center;
 }
 .login{
+    padding-top: 5px;
     border-radius: 15px;
     width: 70px;
-    height: 25px;
+    height: 30px;
     background-color: white;
     text-align: center;
     text-decoration: none;
@@ -138,8 +143,8 @@ header .container{
     text-decoration: none;
     text-align: center;
     min-width: 150px;
-    height: 30px;
-    border-radius: 15px;
+    height: 35px;
+    border-radius: 20px;
     font-family: 'Whitney Semibold', sans-serif;
     padding: 7px;
 }
@@ -154,24 +159,24 @@ header .container{
 #section2 .container1{
     width: 800px;
     min-height: 500px;
-    background-color: cornflowerblue;
 }
 #section2 .container2{
     width: 500px;
     min-height: 500px;
-    background-color: pink;
     flex-direction: column;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 #section3 .container1{
     width: 500px;
     min-height: 500px;
-    background-color: pink;
     flex-direction: column;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 #section3 .container2{
     width: 800px;
     min-height: 500px;
-    background-color: cornflowerblue;
 }
 #section3{
     background-color: lightgray;
@@ -179,22 +184,23 @@ header .container{
 #section4 .container1{
     width: 800px;
     min-height: 500px;
-    background-color: cornflowerblue;
 }
 #section4 .container2{
     width: 500px;
     min-height: 500px;
-    background-color: pink;
     flex-direction: column;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 #section5{
     min-height: 900px;
     background-color: lightgray;
 }
 #section5 .container{
+    padding-top: 70px;
+    padding-bottom: 70px;
     width: 1300px;
     min-height: 800px;
-    background-color: green;
     flex-direction: column;
 }
 .special-title{
@@ -218,19 +224,16 @@ footer .container{
 }
 .container .box1{
     width: 600px;
-    background-color: pink;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    padding-top: 70px;
+    padding-top: 50px;
 }
 .container .box1 h3{
-    color: purple;
+    color: #7289da;
 }
 .container .box{
     width: calc(100% / 4);
-    background-color: deepskyblue;
-    border: dashed white;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -250,25 +253,40 @@ footer .container{
 .ita{
     width: 22px;
 }
-.language, .social{
+.language, .language1, .social{
     max-width: 300px;
     align-self: flex-start;
     padding-bottom: 30px;
+    padding-left: 50px;
+}
+.language{
+    font-size: 30px;
+    font-family: 'Whitney Semibold', sans-serif;
+}
+.language1{
+    color: white;
+    font-size: 20px;
+    font-family: 'Whitney Semibold', sans-serif;
 }
 .social{
-    display: flex;
-    flex-direction: row;
-    padding-left: 30px;
+    padding-left: 50px;
 }
 i{
-    margin-right: 15px;
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
 }
 .footerlist{
-    display: flex;
-    flex-direction: column;
+    font-family: 'Whitney Semibold', sans-serif;
+}
+.footerelements{
+    color: white;
+    font-family: 'Whitney Semibold', sans-serif;
 }
 .footerelements-purple{
-    color: purple;
+    color:#7289da;
+    font-family: 'Whitney Semibold', sans-serif;
+    
 }
 #Button{
     align-self: center;
@@ -277,7 +295,6 @@ i{
     background-color: rgba(142,161,225,255);
     color: white;
     border-radius: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Whitney Semibold', sans-serif;
     border-color: #6f7dac;
-
 }
